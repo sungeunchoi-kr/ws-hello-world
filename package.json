@@ -1,0 +1,19 @@
+{
+  "name": "ws-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.4.5"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.4.4",
+    "typescript": "^4.2.4"
+  }
+}
